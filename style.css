@@ -30,3 +30,14 @@
     color: blue;
     cursor: pointer;
 }
+.container21{
+    text-align: center;
+    
+    display:flex;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
