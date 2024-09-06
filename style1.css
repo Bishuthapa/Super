@@ -23,7 +23,15 @@
 .container > div > p{
     text-align: center;
 }   
-
+.Course{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightblue;
+    background-color: gray;
+}
 .course1{
     text-align: center;
     grid-column-start: 1;
