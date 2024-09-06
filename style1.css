@@ -1,34 +1,79 @@
-.Course{
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    color:lightcoral;
-    text-decoration: underline;
-}
-
 .container{
     text-align: center;
     display:grid;
+    justify-content: center;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10%;
+    grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     cursor: pointer;
-    background-origin: padding-box;
-    border: 1px solid black;
-    margin:10%;
-    padding: 10%;
+    border-radius: 1px;
+
 }
 .container > div{
     border: 1px solid black;
+    border-radius: 1px;
 }
-
 .container > div:hover{
-    background-color: aqua;
+    background-color: aqua;                         
 }
 .container > div > img{
     width: 100%;
     height: 100%;
-}   
+}
 .container > div > p{
     text-align: center;
+}   
+
+.course1{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightblue;
+    background-color: gray;
+}
+
+.course2{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightblue;
+    background-color: gray;
+
+}
+
+.course3{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightblue;
+    background-color: gray;
+
+}
+
+.course4{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightblue;
+    background-color: gray;
+
+}
+
+.course5{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightblue;
+    background-color: gray;
+
 }
