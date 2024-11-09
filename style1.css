@@ -119,10 +119,51 @@ pre.bibit:hover {
     background-color: #2c8dbc;
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;
     }
+}
+
+/* style1.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pdf-links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.pdf-links li {
+    margin: 15px 0;
+}
+
+.pdf-links a {
+    display: inline-block;
+    width: 200px; /* Set a fixed width for equal box sizes */
+    height: 50px; /* Set a fixed height for equal box sizes */
+    line-height: 50px; /* Center text vertically */
+    text-align: center; /* Center text horizontally */
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007acc;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.pdf-links a:hover {
+    background-color: #005fa3;
 }
