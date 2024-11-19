@@ -1,0 +1,13 @@
+body{
+    background-color:#84E12E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+   border-radius: 3px;
+    height: 500px;
+    width:400px;
+    
+}
