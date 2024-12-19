@@ -2,54 +2,56 @@
 <html lang="en">
 <head>
     <meta name="google-adsense-account" content="ca-pub-4422237824770567">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4422237824770567"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4422237824770567" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="image/image0.png">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4422237824770567" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <header>
-        <h1>Portfolio</h1>
+    <header class="header">
+        <div class="logo">Bishu<span>.</span></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="course.html">Course</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="course.html">Course</a></li>
-            
-        </ul>
-    </nav>
+    <main class="main">
+        <section class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Bishu. Explore my journey, skills, and projects.</p>
+            <button onclick="location.href='about.html'">Learn More</button>
+        </section>
 
-    <main>
-        <h2>Welcome to My Portfolio</h2>
-
-        <div class="container">
-            <div onclick="location.href='home.html'">Home</div>
-            <div onclick="location.href='about.html'">About</div>
-            <div onclick="location.href='skills.html'">Skills</div>
-            <div onclick="location.href='education.html'">Education</div>
-            <div onclick="location.href='contact.html'">Contact</div>
-            <div onclick="location.href='hobbies.html'">Hobbies</div>
-            <div onclick="location.href='projects.html'">Projects</div>
-            <div onclick="location.href='course.html'">Course</div>
-
-        </div>
+        <section class="grid-container">
+            <div class="grid-item" onclick="location.href='home.html'">Home</div>
+            <div class="grid-item" onclick="location.href='about.html'">About</div>
+            <div class="grid-item" onclick="location.href='skills.html'">Skills</div>
+            <div class="grid-item" onclick="location.href='education.html'">Education</div>
+            <div class="grid-item" onclick="location.href='contact.html'">Contact</div>
+            <div class="grid-item" onclick="location.href='hobbies.html'">Hobbies</div>
+            <div class="grid-item" onclick="location.href='projects.html'">Projects</div>
+            <div class="grid-item" onclick="location.href='course.html'">Course</div>
+        </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>&copy; 2024 Bishu. All rights reserved.</p>
-        
+        <div class="social-icons">
+            <a href="#"><img src="image/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="image/twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="image/linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
     </footer>
 
     <script src="script.js"></script>
